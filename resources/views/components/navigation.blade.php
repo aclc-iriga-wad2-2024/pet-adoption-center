@@ -13,7 +13,6 @@
                         href="{{ route('categories.index') }}"
                         class="nav-link fs-6 text-white opacity-50 py-3 {{ Route::is('categories.*') ? 'opacity-100' : ''}}"
                     >
-                        <i class="fas fa-fw fa-grid-2 me-1"></i>
                         Categories
                     </a>
                 </li>
@@ -22,7 +21,6 @@
                         href="{{ route('breeds.index') }}"
                         class="nav-link fs-6 text-white opacity-50 py-3 {{ Route::is('breeds.*') ? 'opacity-100' : ''}}"
                     >
-                        <i class="fas fa-fw fa-grid-2 me-1"></i>
                         Breeds
                     </a>
                 </li>
@@ -31,7 +29,6 @@
                         href="{{ route('customers.index') }}"
                         class="nav-link fs-6 text-white opacity-50 py-3 {{ Route::is('customers.*') ? 'opacity-100' : ''}}"
                     >
-                        <i class="fas fa-fw fa-grid-2 me-1"></i>
                         Customers
                     </a>
                 </li>
@@ -40,7 +37,6 @@
                         href="{{ route('adoptions.index') }}"
                         class="nav-link fs-6 text-white opacity-50 py-3 {{ Route::is('adoptions.*') ? 'opacity-100' : ''}}"
                     >
-                        <i class="fas fa-fw fa-grid-2 me-1"></i>
                         Adoptions
                     </a>
                 </li>
