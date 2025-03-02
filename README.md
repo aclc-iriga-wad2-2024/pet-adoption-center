@@ -28,7 +28,7 @@ Pet Adoption Center application built with Laravel.
     php artisan migrate
     ```
 
-    e. Start the development server
+    e. Start the development server on port 8001
     ```
-    php artisan serve
+    php artisan serve --port=8001
     ```
